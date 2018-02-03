@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DirectLibrary">
+      <UniqueIdentifier>{679dbe5d-a0f1-4513-8246-02638938518a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlumLibrary">
+      <UniqueIdentifier>{dc9662f6-ba7d-4321-8aed-b9036c69cf26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DynamicWall">
+      <UniqueIdentifier>{1b79c483-0020-4e3e-9397-b1058334119b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FFmpegLibrary">
+      <UniqueIdentifier>{bbeda4c5-2e41-4d9b-841f-36dac8e8b8c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CherryLibrary">
+      <UniqueIdentifier>{857298bc-9e2b-4b01-b032-91cd17fb9c10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinMain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WinUtilities.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WinProcess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectCommon.h">
+      <Filter>DirectLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectGraphics.h">
+      <Filter>DirectLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectThreadSafe.h">
+      <Filter>DirectLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectSurface.h">
+      <Filter>DirectLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="PlumThread.h">
+      <Filter>PlumLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicWall.h">
+      <Filter>DynamicWall</Filter>
+    </ClInclude>
+    <ClInclude Include="DecodeThread.h">
+      <Filter>DynamicWall</Filter>
+    </ClInclude>
+    <ClInclude Include="FFmpeg.h">
+      <Filter>FFmpegLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectFont.h">
+      <Filter>DirectLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Cherryfps.h">
+      <Filter>CherryLibrary</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WinUtilities.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WinProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectGraphics.cpp">
+      <Filter>DirectLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectThreadSafe.cpp">
+      <Filter>DirectLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectSurface.cpp">
+      <Filter>DirectLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="PlumThread.cpp">
+      <Filter>PlumLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicWall.cpp">
+      <Filter>DynamicWall</Filter>
+    </ClCompile>
+    <ClCompile Include="DecodeThread.cpp">
+      <Filter>DynamicWall</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectFont.cpp">
+      <Filter>DirectLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Cherryfps.cpp">
+      <Filter>CherryLibrary</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
